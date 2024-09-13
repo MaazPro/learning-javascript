@@ -1,0 +1,13 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+.list-container{
+    position: relative;
+    right: 150px;
+    margin-top: 50px;
+}
+ul{
+    list-style-type: none;
+    display: inline;
+}
