@@ -1,7 +1,8 @@
 const input = document.querySelector("input");
 const list = document.querySelector(".list")
 const addTodo = document.querySelector(".addTodo")
-const update = true;
+const update = false;
+const update2 = true;
 addTodo.addEventListener('click', addTask)
 
 function addTask(){
