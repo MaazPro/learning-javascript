@@ -1,6 +1,4 @@
 const apiURL = 'https://jsonplaceholder.typicode.com/users'
-let data = '';
-const div1 = document.querySelector(".div1")
 function fetchUserData(){
     return new Promise((resolve, reject)=>{
         fetch(apiURL)
