@@ -2,8 +2,8 @@
 let multiply = (x) => {
   return (y) => {
     return x * y;
-  };
-};
+  }
+}
 let multiplyByTwo = multiply(2);
 console.log("Multiplication: " + multiplyByTwo(3));
 
@@ -29,10 +29,10 @@ const division = divide(10);
 console.log("Division: " + division(2));
 
 // Subtraction
-function substract(x){
+function subtract(x){
     return function (y){
         return (x - y)
     }
 }
-const substraction = substract(5)(2)
-console.log("Subtraction: "+substraction);
+const subtraction = subtract(5)(2)
+console.log("Subtraction: "+ subtraction);
