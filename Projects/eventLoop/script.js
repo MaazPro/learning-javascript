@@ -1,4 +1,4 @@
-console.log("Start"); // synchronous 
+console.log("Start"); // synchronous
 
 // Handled by Web API
 setTimeout(() => {
@@ -6,4 +6,3 @@ setTimeout(() => {
 }, 1000);
 
 console.log("End"); // synchronous
-
