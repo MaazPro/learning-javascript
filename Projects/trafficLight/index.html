@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Traffic light</title>
+    <style>
+      .d1 {
+        background-color: black;
+        height: 430px;
+        width: 200px;
+        margin: 10px;
+      }
+      .circle {
+        background-color: white;
+        height: 130px;
+        border-radius: 100%;
+        padding: 5px;
+      }
+      #container{
+        display: flex;
+        flex-direction: row;
+        margin: 10%;
+        justify-content: center;
+      }
+      .buttonContainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      button{
+        margin: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id = "container">
+      <div id="d1" class="d1">
+        <div id="nested-d1" class="circle"></div>
+        <div id="nested-d2" class="circle"></div>
+        <div id="nested-d3" class="circle"></div>
+      </div>
+      <div id="d1" class="d1">
+        <div id="nested-d4" class="circle"></div>
+        <div id="nested-d5" class="circle"></div>
+        <div id="nested-d6" class="circle"></div>
+      </div>
+      <div id="d1" class="d1">
+        <div id="nested-d7" class="circle"></div>
+        <div id="nested-d8" class="circle"></div>
+        <div id="nested-d9" class="circle"></div>
+      </div>
+    </div>
+    <div class="buttonContainer">
+        <button id="start">Start</button>
+        <button id="stop">Stop</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
